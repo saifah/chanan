@@ -1,0 +1,491 @@
+@font-face {
+    font-family: 'dancing_scriptbold';
+    src: url('dancingscript-bold-webfont.woff2') format('woff2'), url('dancingscript-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dancing_scriptregular';
+    src: url('dancingscript-regular-webfont.woff2') format('woff2'), url('dancingscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('opensans-bold-webfont.woff2') format('woff2'), url('opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('opensans-light-webfont.woff2') format('woff2'), url('opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('opensans-regular-webfont.woff2') format('woff2'), url('opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'angsana_newregular';
+    src: url('angsa-webfont.woff2') format('woff2'), url('angsa-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*-----------------------------------------------------------*/
+
+
+/*------------- Help Class ------------*/
+
+body {
+    font-size: 16px;
+    font-family: 'open_sansregular';
+}
+
+section {
+    padding: 40px 0;
+}
+
+p.content-header {
+    font-family: 'dancing_scriptbold';
+    font-size: 48px;
+}
+
+.content-margin-bottom {
+    margin-bottom: 30px;
+}
+
+hr.yellow {
+    border-top: 3px solid #e4cb4c;
+    width: 70px;
+    margin-top: -10px;
+}
+
+hr.gray {
+    border-top: 3px solid #686369;
+    width: 70px;
+    margin-top: -10px;
+}
+
+hr.black {
+    border-top: 3px solid #1b1b1b;
+    width: 70px;
+    margin-top: -10px;
+}
+
+hr.white {
+    border-top: 3px solid #e0dcdd;
+    width: 70px;
+    margin-top: -10px;
+}
+
+
+/*------------- Help Class ------------*/
+
+
+/*-------------------- Start :: Hidden Menu ---------------------------*/
+
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,
+    .navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in {
+        display: block !important;
+    }
+}
+
+
+/*-------------------- End :: Hidden Menu ---------------------------*/
+
+
+/*-------------------- Start :: Menu ---------------------------*/
+
+a.navbar-brand.page-scroll {
+    font-family: 'dancing_scriptbold';
+    font-size: 36px;
+    color: #e4cb4c;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+    color: #fec503;
+}
+
+.navbar-custom .navbar-toggle {
+    background-color: transparent;
+    border-color: transparent;
+    font-family: 'open_sansbold';
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+}
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+    background-color: #fed136;
+}
+
+.bg-darkest-gray {
+    background-color: #222222;
+}
+
+.navbar-custom .nav li a {
+    font-family: 'open_sansbold';
+    color: white;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+
+/*-------------------- End :: Menu ---------------------------*/
+
+
+/*-------------------- Start :: home ---------------------------*/
+
+section#home {
+    background-color: #222;
+    background-image: url(../import/image/home3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px 0;
+}
+
+.box-content {
+    text-align: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+        padding: 40px 0;
+}
+p.text-header-slide {
+    font-family: 'dancing_scriptbold';
+    font-size: 48px;
+    color: white;
+    
+}
+span.yellow-font {
+    color: #e4cb4c;
+}
+p.text-content-slide1 {
+    font-family: 'open_sanslight';
+    color: white;
+    font-size: 24px;
+    margin-top: 24px;
+}
+/*-------------------- End :: home ---------------------------*/
+
+
+/*-------------------- Start :: About ---------------------------*/
+
+section#about {
+    background-color: #fff;
+    margin: 140px 0;
+}
+
+.content-profile {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+p.head-about.address {
+    margin-left: -15px;
+}
+
+p.content-about.address {
+    margin-left: -15px;
+}
+
+p.head-about {
+    font-family: 'open_sansbold';
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+p.content-about {
+    font-size: 14px;
+}
+
+p.name {
+    text-align: right;
+    font-family: 'dancing_scriptbold';
+}
+
+p.introduce {
+    font-size: 14px;
+}
+
+
+/*-------------------- End :: About ---------------------------*/
+
+
+/* --------------------- Start Education ----------------------- */
+
+section#education {
+    background-color: #222;
+    background-image: url(../import/image/books3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p.content-header.education {
+    color: white;
+}
+
+p.year {
+    font-family: 'open_sansbold';
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+p.school {
+    color: #e0dcdd;
+    letter-spacing: 1px;
+    font-family: 'open_sansregular';
+    font-size: 18px
+}
+
+p.text-body {
+    color: #e0dcdd;
+    letter-spacing: 1px;
+    font-family: 'open_sansregular';
+    font-size: 14px;
+}
+
+
+/* --------------------- End Education ----------------------- */
+
+
+/* --------------------- Start Skills ----------------------- */
+
+section#skills {
+    padding: 200px 0;
+}
+
+p.content-header.skills {
+    background-color: white;
+    text-align: center;
+}
+
+span.skills {
+    color: #355264;
+}
+
+.progressbar {
+    display: inline-block;
+    width: 100px;
+    margin: 25px;
+}
+
+.circle {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.circle canvas {
+    vertical-align: middle;
+}
+
+.circle div {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.circle strong i {
+    font-style: normal;
+    font-size: 0.6em;
+    font-weight: normal;
+}
+
+.circle span {
+    display: block;
+    color: #1b1b1b;
+    margin-top: 12px;
+}
+
+p.content-skills {
+    font-family: 'open_sansbold';
+    color: #1b1b1b;
+}
+
+
+/* --------------------- End Skills ----------------------- */
+
+
+/* --------------------- Start Knowledge ----------------------- */
+
+section#knowledge {
+    background-color: #e0dcdd;
+    padding: 200px 0;
+}
+
+.knowledge {
+    margin-top: 20px;
+}
+
+p.knowledge-center {
+    text-align: -webkit-center;
+}
+
+
+/* --------------------- End Knowledge ----------------------- */
+
+
+/* --------------------- Start Activity ----------------------- */
+
+section#activity {
+    background-color: #222;
+    background-image: url(../import/image/activity.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p.content-header.activity {
+    text-align: center;
+    color: white;
+}
+
+.thumbnail.activity {
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.30);
+    border: 0;
+    margin-top: 30px;
+}
+
+p.header-activity {
+    font-family: 'open_sansregular';
+    color: white;
+    letter-spacing: 1px;
+    margin: 20px 0;
+}
+
+p.content-activity {
+    font-family: 'open_sanslight';
+    color: white;
+    font-size: 14px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+hr.activity {
+    margin-top: -15px;
+    width: 50px;
+    border-top: 2px solid white;
+}
+
+
+/* --------------------- End Activity ----------------------- */
+
+
+/* --------------------- Start Contact ----------------------- */
+
+section#contact {
+    background-color: #222;
+    background-image: url(../import/image/location.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p.content-header.contact {
+    color: white;
+    text-align: center;
+}
+
+p.content-contact {
+    font-family: 'open_sansregular';
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+hr.contact {
+    margin-top: -15px;
+    width: 50px;
+    border-top: 2px solid white;
+}
+
+.contact.body {
+    border-right: 1px solid white;
+}
+
+.contact-me {
+    margin: 100px 0;
+    text-align: -webkit-center;
+}
+
+.contact.body.no-boder {
+    border-right: none;
+}
+
+img.img-responsive.contact {
+    width: 100px;
+}
+
+
+/* --------------------- End Contact ----------------------- */
+
+
+/* --------------------- Start Footer ----------------------- */
+
+section#footer {
+    background-color: #1b1b1b;
+}
+
+p.footer {
+    font-family: 'open_sanslight';
+    text-align: -webkit-center;
+    color: #e0dcdd;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+
+/* --------------------- End Footer ----------------------- */
