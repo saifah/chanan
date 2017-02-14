@@ -1,0 +1,108 @@
+@media (max-width: 768px) {
+    a.navbar-brand.page-scroll {
+        font-size: 24px;
+    }
+    p.text-header-slide {
+        font-family: 'dancing_scriptbold';
+        font-size: 18px;
+    }
+    p.text-content-slide1 {
+        font-size: 14px;
+    }
+    .contact.body {
+        border-right: none;
+        margin: 35px;
+    }
+    .contact-me {
+        margin: 0px 0;
+    }
+    p.content-contact {
+        margin: 20px 0;
+    }
+    section#about {
+        margin: 0;
+    }
+    img.profile-pic {
+        width: 200px;
+    }
+    p.profile-pic {
+        text-align: -webkit-center;
+    }
+    .mobile-about {
+        text-align: -webkit-center;
+    }
+    section#skills {
+        padding: 30px 0;
+    }
+    .location {
+        text-align: center;
+    }
+    section#knowledge {
+        padding: 30px 0;
+    }
+    img.knowledge {
+        width: 80px;
+    }
+    .knowledge {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    section#home {
+    padding: 130px 0 70px 0;
+}
+    ul.social {
+    margin-left: -36px;
+}
+   
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .navbar-custom {
+        background-color: #1b1b1b;
+    }
+    ul.nav.navbar-nav.navbar-right {
+        background-color: #1b1b1b;
+        width: 600pc;
+        margin-left: -24px;
+    }
+    .carousel-caption.box-content {
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width: 425px) {
+    p.text-content-slide1 {
+        margin-top: 0px;
+    }
+    p.text-content-slide2 {
+        display: none;
+    }
+    p.text-content2-slide2 {
+        display: none;
+    }
+    img.img-responsive.contact {
+        width: 50px;
+    }
+}
+
+@media (min-width: 769px) {
+    .carousel-caption.box-content {
+        margin-bottom: 180px;
+    }
+    img.profile-pic {
+        margin-top: 100px;
+    }
+    p.content-contact.email {
+        padding-top: 15px;
+        margin-left: -35px;
+    }
+     p.content-contact.address {
+        padding-top: 10px;
+    }
+    p.content-contact.tel {
+    text-align: left;
+}
+    section#contact {
+    padding: 100px 0;
+}
+}
