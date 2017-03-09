@@ -125,6 +125,7 @@ hr.white {
     }
     .collapse.in {
         display: block !important;
+            overflow-x: hidden
     }
 }
 
